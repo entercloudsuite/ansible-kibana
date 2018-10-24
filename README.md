@@ -4,7 +4,7 @@ Ansible Role: Elasticsearch
 [![Build Status](https://travis-ci.org/entercloudsuite/ansible-haproxy.svg?branch=master)](https://travis-ci.org/entercloudsuite/ansible-haproxy)
 [![Galaxy](https://img.shields.io/badge/galaxy-entercloudsuite.haproxy-blue.svg?style=flat-square)](https://galaxy.ansible.com/entercloudsuite/haproxy)  
 
-Installs Elasticsearch on Ubuntu 16.04 (Xenial)
+Installs Elasticsearch on Ubuntu 16.04 (Xenial) 
 
 ## Requirements
 
