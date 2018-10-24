@@ -2,7 +2,6 @@
 package:
   kibana:
     installed: true
-    
 port:
   tcp:5601:
     listening: true
