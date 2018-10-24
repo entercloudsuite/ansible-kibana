@@ -1,27 +1,15 @@
 ---
 package:
-  elasticsearch:
+  kibana:
     installed: true
-    versions:
-      - 5.5.1
+    
 port:
-  tcp:9200:
-    listening: true
-    ip:
-      - 0.0.0.0
-  tcp:9300:
+  tcp:5601:
     listening: true
     ip:
       - 0.0.0.0
 service:
-  elasticsearch:
+  kibana:
     enabled: false
     running: false
-user:
-  elasticsearch:
-    exists: true
-    groups:
-      - elasticsearch
-group:
-  elasticsearch:
-    exists: true
+
