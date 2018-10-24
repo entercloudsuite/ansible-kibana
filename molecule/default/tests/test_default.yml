@@ -7,7 +7,3 @@ port:
     listening: true
     ip:
       - 0.0.0.0
-service:
-  kibana:
-    enabled: false
-    running: false
