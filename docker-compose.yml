@@ -4,6 +4,6 @@ services:
   molecule:
     image: fminzoni/molecule
     volumes:
-      - .:/root/src/ansible-elasticsearch
+      - .:/root/src/ansible-kibana
       - /var/run/docker.sock:/var/run/docker.sock
-    working_dir: /root/src/ansible-elasticsearch
+    working_dir: /root/src/ansible-kibana

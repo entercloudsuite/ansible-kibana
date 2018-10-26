@@ -1,8 +1,8 @@
 Ansible Role: Elasticsearch 
 ======================================
 
-[![Build Status](https://travis-ci.org/entercloudsuite/ansible-haproxy.svg?branch=master)](https://travis-ci.org/entercloudsuite/ansible-haproxy)
-[![Galaxy](https://img.shields.io/badge/galaxy-entercloudsuite.haproxy-blue.svg?style=flat-square)](https://galaxy.ansible.com/entercloudsuite/haproxy)  
+[![Build Status](https://travis-ci.org/entercloudsuite/ansible-kibana.svg?branch=master)](https://travis-ci.org/entercloudsuite/ansible-kibana)
+[![Galaxy](https://img.shields.io/badge/galaxy-entercloudsuite.kibana-blue.svg?style=flat-square)](https://galaxy.ansible.com/entercloudsuite/kibana)  
 
 Installs Elasticsearch on Ubuntu 16.04 (Xenial) 
 
@@ -20,7 +20,7 @@ Run with default vars:
 
     - hosts: all
       roles:
-        - { role: ansible-elasticsearch }
+        - { role: ansible-kibana }
 
 ## Testing
 
@@ -40,7 +40,7 @@ Destroy the Docker container with the command `molecule destroy`.
 
 To run all the steps with just one command, run `molecule test`. 
 
-In order to run the role targeting a VM, use the playbook_deploy.yml file for example with the following command: `ansible-playbook ansible-elasticsearch/molecule/default/playbook_deploy.yml -i VM_IP_OR_FQDN, -u ubuntu --private-key private.pem`.  
+In order to run the role targeting a VM, use the playbook_deploy.yml file for example with the following command: `ansible-playbook ansible-kibana/molecule/default/playbook_deploy.yml -i VM_IP_OR_FQDN, -u ubuntu --private-key private.pem`.
 
 ## License
 
